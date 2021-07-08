@@ -34,3 +34,5 @@ set expandtab
 " enable mouse mode
 
 set mouse=nvi
+
+" test edit
