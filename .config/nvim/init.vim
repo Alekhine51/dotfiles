@@ -35,4 +35,3 @@ set expandtab
 
 set mouse=nvi
 
-" test edit
