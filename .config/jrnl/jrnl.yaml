@@ -10,7 +10,9 @@ encrypt: false
 highlight: true
 indent_character: '|'
 journals:
-  default: /home/alekhine/Documents/jrnl.txt
+  default:
+    encrypt: false
+    journal: /home/alekhine/Documents/jrnl.txt
 linewrap: 79
 tagsymbols: '@'
 template: false
