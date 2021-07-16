@@ -1,3 +1,4 @@
+lua
 love
 zig
 lutris
@@ -23,3 +24,4 @@ ruby
 tlp
 googler
 godot
+stack
