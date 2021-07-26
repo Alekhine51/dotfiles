@@ -24,4 +24,5 @@ ruby
 tlp
 googler
 godot
-stack
+mingw64-gcc
+racket
