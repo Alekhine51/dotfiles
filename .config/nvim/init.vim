@@ -1,5 +1,3 @@
-```vim
-
 "TODO Configure completion
 "TODO configure snippets
 "TODO configure quick-fix-lists
@@ -123,4 +121,4 @@ let mapleader = "\<SPACE>"
 " map w k
 " map a h
 " map s j
-" map d l```
+" map d l
