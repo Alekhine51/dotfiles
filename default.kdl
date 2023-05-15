@@ -1,0 +1,39 @@
+layout {
+
+    //having this set will make the normal 'tab' command default to this
+    default_tab_template {
+        // the default zellij tab-bar and status bar plugins
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        children
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+
+    //file view on the left
+    tab_template name="strider_tab" {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        pane split_direction="Vertical" {
+            pane size="15%" {
+                // TODO: when we support sending CWD to plugins, this should start in ./zellij-derver
+                plugin location="zellij:strider"
+            }
+            children
+        }
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+
+    //zellij doesnt understand $VARIABLES or '~'
+
+    //editor
+    tab name="Helix"
+
+    //source files
+    tab name="Source" cwd="/home/serif/src"
+}
